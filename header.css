@@ -1,0 +1,21 @@
+.header {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 2fr 1fr;
+  margin-left: 25%;
+  margin-right: 10%;
+}
+
+img {
+  width: 75px;
+  margin-top: 10px;
+}
+
+h1 {
+  color: #ffff;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
