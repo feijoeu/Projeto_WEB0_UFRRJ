@@ -1,0 +1,44 @@
+body {
+    background-color: #010b16;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilização do bloco de avisos. */
+.avisos {
+    color: #010b16;
+    background-color: white;
+    margin-left: 25%;
+    width: 30%;
+    padding-bottom: 0.1%;
+}
+
+/* Estilização do bloco de extensões. */
+.extensoes {
+    color: #010b16;
+    background-color: white;
+    margin-left: 25%;
+    width: 30%;
+    padding-bottom: 0.1%;
+}
+
+/* Estilizações que são úteis a mais de um bloco */
+.observacao {
+    font-size: small;
+}
+
+button {
+    background-color: #033665;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    background-color: #033665;
+}
+

@@ -1,5 +1,5 @@
 footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0;
@@ -7,9 +7,9 @@ footer {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 30px;
   background-color: #033665;
   color: #ffff;
+  margin-top: 2%;
 }
 
 footer p {
@@ -19,7 +19,7 @@ footer p {
 }
 
 .rodape::before {
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   content: "";
   display: block;
   width: 100%;
