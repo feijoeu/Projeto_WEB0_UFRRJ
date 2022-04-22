@@ -1,4 +1,4 @@
-# PROJETO - WEB0 - UFRRJ
+# 👾 PROJETO - WEB0 - UFRRJ
 
 Repositório dedicado ao desenvolvimento do projeto da disciplina Introdução a Web do curso de Sistemas de Informação da UFRRJ.
 
