@@ -22,15 +22,6 @@ h2::after {
   background: #ffff;
 }
 
-h3::before {
-  margin-bottom: 5px;
-  content: "";
-  display: block;
-  width: 50px;
-  height: 3px;
-  background: #ffff;
-}
-
 .cabecalho {
   background-color: #033665;
   color: #ffff;
@@ -47,61 +38,51 @@ h3 {
   margin-bottom: 20px;
 }
 
-.blocos {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
+h3::before {
+  margin-bottom: 5px;
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #ffff;
+}
+
+.cadastro {
+  background-color: #033665;
+  color: #ffff;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.cadastro,
-.login {
-  color: #ffff;
-  background-color: #033665;
-  padding: 40px;
+  padding: 50px;
   padding-top: 5px;
-  width: 250px;
+  padding-bottom: 100px;
+  width: 580px;
   height: 250px;
 }
 
-.box {
-  padding: 8px;
-  border: none;
-  outline: none;
-}
-
-.botaolog {
-  color: white;
-  background-color: #010b16;
-  width: 100px;
-  height: 30px;
-  border: none;
+.blocos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
 button {
   color: #ffff;
   background-color: #010b16;
-  width: 150px;
+  width: 130px;
   height: 35px;
   border: none;
-  text-decoration: none;
 }
 
-.botaolog:hover,
 button:hover {
   cursor: pointer;
   background-color: #ffff;
   color: #010b16;
 }
 
-.login a {
-  color: #010b16;
-  text-decoration: none;
-}
-
-.login p {
-  font-size: small;
+.box {
+  padding: 5px;
+  border: none;
+  outline: none;
 }
