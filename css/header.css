@@ -31,15 +31,7 @@ h2 {
   color: #ffff;
 }
 
-h2::before {
-  margin-bottom: 5px;
-  content: "";
-  display: block;
-  width: 100%;
-  height: 3px;
-  background: #ffff;
-}
-
+h2::before,
 h2::after {
   margin-bottom: 5px;
   content: "";

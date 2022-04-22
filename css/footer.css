@@ -17,13 +17,8 @@ footer p {
   font-size: 11px;
 }
 
-<<<<<<< HEAD
 footer::before {
-  margin-bottom: 5px;
-=======
-.rodape::before {
   margin-bottom: 0px;
->>>>>>> f8b391c3e4a4614a7aaee1d75c8ad63d8183392d
   content: "";
   display: block;
   width: 100%;
