@@ -1,0 +1,112 @@
+body {
+  background-color: #010b16;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2::before {
+  margin-bottom: 5px;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: #ffff;
+}
+
+h2::after {
+  margin-bottom: 5px;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: #ffff;
+}
+
+h3::before {
+  margin-bottom: 5px;
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #ffff;
+}
+
+.cabecalho {
+  background-color: #033665;
+  color: #ffff;
+}
+
+h2 {
+  font-size: 26px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.blocos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cadastro,
+.login {
+  color: #ffff;
+  background-color: #033665;
+  padding: 40px;
+  padding-top: 5px;
+  width: 250px;
+  height: 250px;
+}
+
+.box {
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+
+.botaolog {
+  color: white;
+  background-color: #010b16;
+  width: 100px;
+  height: 30px;
+  border: none;
+}
+
+button {
+  color: #ffff;
+  background-color: #010b16;
+  width: 150px;
+  height: 35px;
+  border: none;
+}
+
+button a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+.botaolog:hover,
+button:hover,
+button a:hover {
+  cursor: pointer;
+  background-color: #ffff;
+  color: #010b16;
+}
+
+.login a {
+  color: #010b16;
+  text-decoration: none;
+}
+
+.login p {
+  font-size: small;
+}
