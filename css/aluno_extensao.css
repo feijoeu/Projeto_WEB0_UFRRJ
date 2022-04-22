@@ -1,0 +1,100 @@
+body {
+    background-color: #010b16;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilização dos itens sem box */
+
+.itens_sem_box {
+    margin-left: 25%;
+    margin-right: 45%;
+    color: white;
+}
+
+.itens_sem_box h3::before {
+    margin-bottom: 2%;
+    content: "";
+    display: block;
+    width: 20%;
+    height: 3px;
+    background: #ffff;
+}
+
+/* Estilização da caixa de relatórios */
+
+.relatorios {
+    color: #010b16;
+    background-color: white;
+    margin-left: 25%;
+    width: 30%;
+    padding-bottom: 0.1%;
+    align-items: left;
+}
+
+.relatorios h3 {
+    text-align: center;
+    color: white;
+    background-color: #033665;
+}
+
+.relatorios button {
+    background-color: #033665;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+}
+
+.relatorios button:hover {
+    cursor: pointer;
+    background-color: #ffff;
+    color: #010b16;
+    border: solid;
+    border-color: #033665;
+}
+
+/* Estilização do bloco de avisos. */
+
+.avisos {
+    color: #010b16;
+    background-color: white;
+    margin-left: 60%;
+    width: 15%;
+    padding-bottom: 0.1%;
+    align-items: left;
+}
+
+.avisos h3 {
+    text-align: center;
+    color: white;
+    background-color: #033665;
+}
+
+.avisos li {
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+/* Estilizações que são úteis a mais de um bloco */
+
+button {
+    background-color: white;
+    color: #033665;
+    text-decoration: none;
+    display: inline-block;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    margin-top: -2%;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #033665;
+    color: white;
+}
