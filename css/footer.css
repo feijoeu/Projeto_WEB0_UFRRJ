@@ -1,5 +1,5 @@
 footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0;
@@ -7,19 +7,23 @@ footer {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 30px;
   background-color: #033665;
   color: #ffff;
+  margin-top: 2%;
 }
 
 footer p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 11px;
-  text-align: center;
 }
 
+<<<<<<< HEAD
 footer::before {
   margin-bottom: 5px;
+=======
+.rodape::before {
+  margin-bottom: 0px;
+>>>>>>> f8b391c3e4a4614a7aaee1d75c8ad63d8183392d
   content: "";
   display: block;
   width: 100%;
