@@ -25,7 +25,7 @@ body {
   font-size: 14px;
 }
 
-button {
+.informacoes button {
   background-color: #033665;
   color: white;
   text-decoration: none;
@@ -38,7 +38,7 @@ button {
   margin-bottom: 10px;
 }
 
-button:hover {
+.informacoes button:hover {
   cursor: pointer;
   background-color: #ffff;
   color: #010b16;
@@ -59,7 +59,7 @@ span {
   padding: 30px;
   padding-top: 3px;
   width: 15%;
-  height: 190px;
+  height: 220px;
 }
 
 .relatorio h3 {
@@ -79,6 +79,26 @@ span {
 .box {
   width: 55px;
   padding: 5px;
+  border: none;
+  outline: none;
+  margin-top: 7px;
+}
+
+.relatorio button {
+  color: #ffff;
+  background-color: #010b16;
+  width: 80px;
+  height: 35px;
+  border: none;
+  text-decoration: none;
+}
+
+.relatorio button:hover {
+  cursor: pointer;
+  background-color: #ffff;
+  color: #010b16;
+  border: solid;
+  border-color: #010b16;
 }
 
 /*Posicionamento*/

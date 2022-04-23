@@ -55,7 +55,10 @@ button:hover {
 
 /*Caixas de texto*/
 .box {
-  padding: 5px;
+  padding: 7px;
+  width: 65%;
   border: none;
   outline: none;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
