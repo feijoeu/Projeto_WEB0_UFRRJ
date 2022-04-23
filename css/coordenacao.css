@@ -30,6 +30,12 @@ body {
 }
 
 /* Estilização do bloco de extensões. */
+h3 {
+  text-align: center;
+  color: white;
+  background-color: #033665;
+}
+
 .ativas,
 .concluidas {
   color: #010b16;
@@ -68,10 +74,9 @@ button:hover {
   border-color: #033665;
 }
 
-h3 {
-  text-align: center;
-  color: white;
-  background-color: #033665;
+/*Detalhes em negrito*/
+span {
+  font-weight: bold;
 }
 
-/*posicionamento e organização*/
+/*Posicionamento*/
