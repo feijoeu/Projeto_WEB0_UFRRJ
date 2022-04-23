@@ -65,6 +65,8 @@ button:hover {
   cursor: pointer;
   background-color: #ffff;
   color: #010b16;
+  border: solid;
+  border-color: #010b16;
 }
 
 /*Detalhes da caixa de login*/

@@ -27,6 +27,7 @@ h3::before {
   padding: 50px;
   width: 42%;
   margin-left: 25%;
+  padding-top: 30px;
 }
 
 .blocos {
@@ -48,6 +49,8 @@ button:hover {
   cursor: pointer;
   background-color: #ffff;
   color: #010b16;
+  border: solid;
+  border-color: #010b16;
 }
 
 /*Caixas de texto*/
