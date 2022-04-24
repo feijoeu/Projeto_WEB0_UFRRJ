@@ -31,7 +31,7 @@ h3 {
   background-color: #033665;
   padding: 40px;
   padding-top: 5px;
-  width: 35%;
+  width: 75%;
   height: 250px;
 }
 
@@ -80,3 +80,9 @@ button:hover {
 }
 
 /*Posicionamento*/
+.blocos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 4fr 1fr;
+  gap: 30px;
+}

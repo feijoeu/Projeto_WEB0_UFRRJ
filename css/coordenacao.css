@@ -8,7 +8,7 @@ body {
 .busca {
   margin-left: 25%;
   background-color: #ffff;
-  width: 675px;
+  width: 50%;
   height: 5%;
 }
 
@@ -27,6 +27,8 @@ body {
 
 .botaobusca {
   margin-left: 57%;
+  position: relative;
+  left: 1%;
 }
 
 /* Estilização do bloco de extensões. */
@@ -41,8 +43,8 @@ h3 {
   color: #010b16;
   background-color: white;
   margin-left: 25%;
-  width: 25%;
-  height: 50%;
+  width: 23%;
+  height: 400px;
   padding-bottom: 0.1%;
   align-items: left;
 }
@@ -80,3 +82,9 @@ span {
 }
 
 /*Posicionamento*/
+.concluidas {
+  position: relative;
+  left: 27%;
+  bottom: 420px;
+  margin-right: 25%;
+}

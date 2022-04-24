@@ -9,7 +9,7 @@ body {
   color: #010b16;
   background-color: white;
   margin-left: 25%;
-  width: 25%;
+  width: 27%;
   height: 50%;
   padding-bottom: 0.1%;
   align-items: left;
@@ -56,7 +56,7 @@ span {
   background-color: #033665;
   color: #ffff;
   margin-left: 25%;
-  padding: 30px;
+  padding: 34px;
   padding-top: 3px;
   width: 15%;
   height: 220px;
@@ -102,3 +102,8 @@ span {
 }
 
 /*Posicionamento*/
+.relatorio {
+  position: relative;
+  left: 30%;
+  bottom: 192px;
+}
