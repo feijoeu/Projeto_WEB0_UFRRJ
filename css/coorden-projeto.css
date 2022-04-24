@@ -1,0 +1,94 @@
+body {
+  background-color: #010b16;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Estilização das informações*/
+.info h3::before {
+  margin-bottom: 5px;
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #ffff;
+}
+
+.info h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.info {
+  color: #ffff;
+  margin-left: 25%;
+}
+
+button {
+  background-color: #ffff;
+  color: #010b16;
+  width: 100px;
+  height: 30px;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #ffff;
+  background-color: #033665;
+  border: solid;
+  border-color: #ffff;
+}
+
+/*Estilizações do bloco dos alunos*/
+.alunos {
+  background-color: #ffff;
+  color: #010b16;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-bottom: 10px;
+}
+
+.alunos h3 {
+  text-align: center;
+  color: white;
+  background-color: #033665;
+}
+
+/*Estilizações do bloco dos relatórios*/
+.relatorios {
+  background-color: #ffff;
+  color: #010b16;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-bottom: 10px;
+  padding-top: 0px;
+}
+
+.relatorios h3 {
+  text-align: center;
+  color: white;
+  background-color: #033665;
+}
+
+.dados {
+  font-size: small;
+}
+
+h4 {
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+}
+
+/*Detalhes em negrito*/
+span {
+  font-weight: bold;
+}
+
+/*Posição entregue x pendente*/
+.blocos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

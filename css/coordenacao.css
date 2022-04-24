@@ -1,0 +1,90 @@
+body {
+  background-color: #010b16;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Caixa de pesquisa*/
+.busca {
+  margin-left: 25%;
+  background-color: #ffff;
+  width: 50%;
+  height: 5%;
+}
+
+.busca img {
+  width: 25px;
+  float: left;
+}
+
+.box {
+  border: none;
+  outline: none;
+  float: left;
+  font-size: medium;
+  margin-top: 1%;
+}
+
+.botaobusca {
+  margin-left: 57%;
+  position: relative;
+  left: 1%;
+}
+
+/* Estilização do bloco de extensões. */
+h3 {
+  text-align: center;
+  color: white;
+  background-color: #033665;
+}
+
+.ativas,
+.concluidas {
+  color: #010b16;
+  background-color: white;
+  margin-left: 25%;
+  width: 23%;
+  height: 400px;
+  padding-bottom: 0.1%;
+  align-items: left;
+}
+
+.extensoes button {
+  width: 100px;
+}
+
+.responsavel {
+  font-size: small;
+}
+
+button {
+  background-color: #033665;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  height: 35px;
+  border: none;
+  border: solid;
+  border-color: #033665;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #ffff;
+  color: #010b16;
+  border: solid;
+  border-color: #033665;
+}
+
+/*Detalhes em negrito*/
+span {
+  font-weight: bold;
+}
+
+/*Posicionamento*/
+.concluidas {
+  position: relative;
+  left: 27%;
+  bottom: 420px;
+  margin-right: 25%;
+}

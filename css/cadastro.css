@@ -1,0 +1,64 @@
+body {
+  background-color: #010b16;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Título Cadastro*/
+h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+h3::before {
+  margin-bottom: 5px;
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #ffff;
+}
+
+/*Estilizações do bloco*/
+.cadastro {
+  background-color: #033665;
+  color: #ffff;
+  position: relative;
+  padding: 50px;
+  width: 42%;
+  margin-left: 25%;
+  padding-top: 30px;
+}
+
+.blocos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+/*Botão*/
+button {
+  color: #ffff;
+  background-color: #010b16;
+  width: 130px;
+  height: 35px;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #ffff;
+  color: #010b16;
+  border: solid;
+  border-color: #010b16;
+}
+
+/*Caixas de texto*/
+.box {
+  padding: 7px;
+  width: 65%;
+  border: none;
+  outline: none;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
