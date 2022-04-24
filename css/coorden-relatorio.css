@@ -1,0 +1,109 @@
+body {
+  background-color: #010b16;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Estlização do bloco de informações*/
+.informacoes {
+  color: #010b16;
+  background-color: white;
+  margin-left: 25%;
+  width: 27%;
+  height: 50%;
+  padding-bottom: 0.1%;
+  align-items: left;
+}
+
+.informacoes h3 {
+  text-align: center;
+  color: white;
+  background-color: #033665;
+}
+
+.informacoes p {
+  font-size: 14px;
+}
+
+.informacoes button {
+  background-color: #033665;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  height: 35px;
+  border: none;
+  border: solid;
+  border-color: #033665;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.informacoes button:hover {
+  cursor: pointer;
+  background-color: #ffff;
+  color: #010b16;
+  border: solid;
+  border-color: #033665;
+}
+
+/*Detalhes em negrito*/
+span {
+  font-weight: bold;
+}
+
+/*Estilização bloco de relatório*/
+.relatorio {
+  background-color: #033665;
+  color: #ffff;
+  margin-left: 25%;
+  padding: 34px;
+  padding-top: 3px;
+  width: 15%;
+  height: 220px;
+}
+
+.relatorio h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.relatorio h3::before {
+  margin-bottom: 5px;
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #ffff;
+}
+
+.box {
+  width: 55px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  margin-top: 7px;
+}
+
+.relatorio button {
+  color: #ffff;
+  background-color: #010b16;
+  width: 80px;
+  height: 35px;
+  border: none;
+  text-decoration: none;
+}
+
+.relatorio button:hover {
+  cursor: pointer;
+  background-color: #ffff;
+  color: #010b16;
+  border: solid;
+  border-color: #010b16;
+}
+
+/*Posicionamento*/
+.relatorio {
+  position: relative;
+  left: 30%;
+  bottom: 192px;
+}

@@ -17,7 +17,7 @@ footer p {
   font-size: 11px;
 }
 
-.rodape::before {
+footer::before {
   margin-bottom: 0px;
   content: "";
   display: block;
