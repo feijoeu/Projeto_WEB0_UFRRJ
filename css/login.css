@@ -81,8 +81,7 @@ button:hover {
 
 /*Posicionamento*/
 .blocos {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 4fr 1fr;
+  display: flex;
+  justify-content: center;
   gap: 30px;
 }
