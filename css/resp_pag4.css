@@ -61,12 +61,12 @@ h3{
     gap: 10px;
 }
 
-.bloco2{
-    position: relative;
-    bottom: 88px;
-}
-
 .cabecalho {
     background-color: #033665;
     color: #ffff;
+}
+
+.bloco2{
+    position: relative;
+    bottom: 88px;
 }
