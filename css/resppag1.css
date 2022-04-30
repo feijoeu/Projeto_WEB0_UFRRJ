@@ -1,0 +1,48 @@
+body {
+    background-color: #010b16;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho {
+    background-color: #033665;
+    color: #ffff;
+}
+
+button{
+    color: white;
+    background-color: #033665;
+    width: 120px;
+    height: 40px;
+    border: none;
+}
+
+.extensoes{
+    background-color: white;
+    color: #010b16;
+    position: relative;
+    height: 300px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.letrag{
+    font-size: medium;
+}
+.letrap{
+    font-size: small;
+}
+
+h3{
+    color: white;
+    background-color: #033665;
+    text-align: center;
+}
+
+.botoes{
+    margin-top: 2%;
+    margin-left: 25%;
+    display: flex;
+    gap: 443px;   
+}
