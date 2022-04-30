@@ -9,7 +9,7 @@ body {
   margin-bottom: 5px;
   content: "";
   display: block;
-  width: 50px;
+  width: 8%;
   height: 3px;
   background: #ffff;
 }
@@ -25,19 +25,22 @@ body {
 }
 
 button {
-  background-color: #ffff;
-  color: #010b16;
-  width: 100px;
-  height: 30px;
+  background-color: #033665;
+  color: #ffff;
+  text-decoration: none;
+  display: inline-block;
+  height: 32px;
+  width: 75px;
   border: none;
+  cursor: pointer;
 }
 
 button:hover {
   cursor: pointer;
-  color: #ffff;
-  background-color: #033665;
+  background-color: #ffff;
+  color: #010b16;
   border: solid;
-  border-color: #ffff;
+  border-color: #033665;
 }
 
 /*Estilizações do bloco dos alunos*/
