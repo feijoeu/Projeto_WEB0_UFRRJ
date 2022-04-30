@@ -41,10 +41,9 @@ body {
 
 .relatorios button:hover {
     cursor: pointer;
-    background-color: #ffff;
-    color: #010b16;
-    border: solid;
-    border-color: #033665;
+    background-color: #010b16;
+    color: white;
+    border: none;
 }
 
 /* Estilização do bloco de avisos. */
