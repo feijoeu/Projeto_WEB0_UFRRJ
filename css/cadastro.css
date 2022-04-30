@@ -2,6 +2,10 @@ body {
   background-color: #010b16;
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
+<<<<<<< HEAD
+=======
+  height: 100vh;
+>>>>>>> 9822cbb823b90aabe76678f1608d4ce24e945952
 }
 
 /*Título Cadastro*/
@@ -25,8 +29,14 @@ h3::before {
   color: #ffff;
   position: relative;
   padding: 50px;
+<<<<<<< HEAD
   width: 42%;
   margin-left: 25%;
+=======
+  width: auto;
+  margin-left: 25%;
+  margin-right: 25%;
+>>>>>>> 9822cbb823b90aabe76678f1608d4ce24e945952
   padding-top: 30px;
 }
 

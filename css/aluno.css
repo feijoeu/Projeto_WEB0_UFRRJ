@@ -8,8 +8,11 @@ body {
 .avisos {
   color: #010b16;
   background-color: white;
+<<<<<<< HEAD
   margin-left: 25%;
   width: 30%;
+=======
+>>>>>>> 9822cbb823b90aabe76678f1608d4ce24e945952
   padding-bottom: 0.1%;
   align-items: left;
 }
@@ -18,10 +21,16 @@ body {
 .extensoes {
   color: #010b16;
   background-color: white;
+<<<<<<< HEAD
   margin-left: 25%;
   width: 30%;
   padding-bottom: 0.1%;
   align-items: left;
+=======
+  padding-bottom: 0.1%;
+  align-items: left;
+  margin-top: 5%;
+>>>>>>> 9822cbb823b90aabe76678f1608d4ce24e945952
 }
 
 .extensoes button {
@@ -32,8 +41,14 @@ body {
 .dados_pessoais {
   color: #010b16;
   background-color: white;
+<<<<<<< HEAD
   margin-left: 60%;
   width: 15%;
+=======
+  width: 18%;
+  height: min-content;
+  margin-left: 2%;
+>>>>>>> 9822cbb823b90aabe76678f1608d4ce24e945952
   padding-bottom: 0.1%;
 }
 
@@ -101,7 +116,25 @@ button:hover {
 }
 
 h3 {
+<<<<<<< HEAD
+=======
+  margin-top: 0%;
+>>>>>>> 9822cbb823b90aabe76678f1608d4ce24e945952
   text-align: center;
   color: white;
   background-color: #033665;
 }
+<<<<<<< HEAD
+=======
+
+.flex_container_global {
+  display: flex;
+}
+
+.flex_container_esquerda {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25%;
+  width: 30%;
+}
+>>>>>>> 9822cbb823b90aabe76678f1608d4ce24e945952

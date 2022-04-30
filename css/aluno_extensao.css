@@ -7,8 +7,6 @@ body {
 /* Estilização dos itens sem box */
 
 .itens_sem_box {
-    margin-left: 25%;
-    margin-right: 45%;
     color: white;
 }
 
@@ -26,16 +24,9 @@ body {
 .relatorios {
     color: #010b16;
     background-color: white;
-    margin-left: 25%;
-    width: 30%;
     padding-bottom: 0.1%;
     align-items: left;
-}
-
-.relatorios h3 {
-    text-align: center;
-    color: white;
-    background-color: #033665;
+    margin-top: 5%;
 }
 
 .relatorios button {
@@ -61,16 +52,17 @@ body {
 .avisos {
     color: #010b16;
     background-color: white;
-    margin-left: 60%;
     width: 15%;
+    margin-left: 5%;
     padding-bottom: 0.1%;
     align-items: left;
 }
 
-.avisos h3 {
+.avisos h3, .relatorios h3{
     text-align: center;
     color: white;
     background-color: #033665;
+    margin-top: 0%;
 }
 
 .avisos li {
@@ -97,4 +89,15 @@ button:hover {
     cursor: pointer;
     background-color: #033665;
     color: white;
+}
+
+.flex_container_global {
+    display: flex;
+}
+
+.flex_container_esquerda {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    width: 30%;
 }

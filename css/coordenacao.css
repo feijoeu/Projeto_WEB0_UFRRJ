@@ -82,9 +82,13 @@ span {
 }
 
 /*Posicionamento*/
+<<<<<<< HEAD
 .concluidas {
   position: relative;
   left: 27%;
   bottom: 420px;
   margin-right: 25%;
+=======
+.extensoes {
+>>>>>>> 9822cbb823b90aabe76678f1608d4ce24e945952
 }
