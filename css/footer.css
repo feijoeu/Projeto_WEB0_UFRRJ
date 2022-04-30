@@ -1,15 +1,17 @@
 footer {
-  position: relative;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
   background-color: #033665;
   color: #ffff;
   margin-top: 2%;
+  width: 100%;
+  position: relative;
+}
+
+.rodape {
+  margin-left: 25%;
+  margin-right: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 footer p {
@@ -21,7 +23,7 @@ footer::before {
   margin-bottom: 0px;
   content: "";
   display: block;
-  width: 100%;
+  width: 50%;
   height: 3px;
   background: #ffff;
   margin-left: 25%;
