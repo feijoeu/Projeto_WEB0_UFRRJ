@@ -29,7 +29,6 @@ h3::before {
   width: auto;
   width: auto;
   padding: 30px 50px 50px;
-
   flex: 1;
   margin: 2.2% 25%;
 }
@@ -65,7 +64,7 @@ button:hover {
   margin-bottom: 7px;
 }
 
-/*Envio de arquivos*/
+/*Estilizações úteis a mais de uma pag*/
 .fotodeperfil {
   background-color: #010b16;
   color: #ffff;
