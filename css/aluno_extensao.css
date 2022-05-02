@@ -1,105 +1,126 @@
 body {
-    background-color: #010b16;
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+  background-color: #010b16;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Estilização dos itens sem box */
 
 .itens_sem_box {
-    color: white;
-    margin-bottom: 5%;
-    margin-top: 5%;
+  color: white;
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
 
 .itens_sem_box h3::before {
-    margin-bottom: 2%;
-    content: "";
-    display: block;
-    width: 20%;
-    height: 3px;
-    background: #ffff;
+  margin-bottom: 2%;
+  content: "";
+  display: block;
+  width: 20%;
+  height: 3px;
+  background: #ffff;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+label {
+  background-color: #ffff;
+  color: #010b16;
+  padding: 2%;
+  cursor: pointer;
+}
+
+label:hover {
+  background-color: #033665;
+  color: #ffff;
 }
 
 /* Estilização da caixa de relatórios */
 
 .relatorios {
-    color: #010b16;
-    background-color: white;
-    padding-bottom: 0.1%;
-    align-items: left;
-    margin-top: 5%;
+  color: #010b16;
+  background-color: white;
+  padding-bottom: 0.1%;
+  align-items: left;
+  margin-top: 5%;
 }
 
 .relatorios button {
-    background-color: #033665;
-    color: white;
-    text-decoration: none;
-    height: 35px;
-    border: none;
-    cursor: pointer;
-    float: right;
-    margin: auto; 
-    margin-right: 5%;
+  background-color: #033665;
+  color: white;
+  text-decoration: none;
+  height: 35px;
+  border: none;
+  cursor: pointer;
+  float: right;
+  margin: auto;
+  margin-right: 5%;
 }
 
 .relatorios button:hover {
-    cursor: pointer;
-    background-color: #010b16;
-    color: white;
-    border: none;
+  cursor: pointer;
+  background-color: #010b16;
+  color: white;
+  border: none;
+}
+
+span {
+  font-weight: bold;
 }
 
 /* Estilização do bloco de avisos. */
 
 .avisos {
-    color: #010b16;
-    background-color: white;
-    width: 18%;
-    margin-left: 2%;
-    padding-bottom: 0.1%;
+  color: #010b16;
+  background-color: white;
+  width: 18%;
+  margin-left: 2%;
+  padding-bottom: 0.1%;
 }
 
-.avisos h3, .relatorios h3{
-    text-align: center;
-    color: white;
-    background-color: #033665;
-    margin-top: 0%;
+.avisos h3,
+.relatorios h3 {
+  text-align: center;
+  color: white;
+  background-color: #033665;
+  margin-top: 0%;
 }
 
 .avisos li {
-    text-align: left;
-    margin-top: 5%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+  text-align: left;
+  margin-top: 5%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
 
 /* Estilizações que são úteis a mais de um bloco */
 
 button {
-    background-color: white;
-    color: #033665;
-    text-decoration: none;
-    display: inline-block;
-    height: 35px;
-    border: none;
-    cursor: pointer;
-    margin-top: -2%;
+  background-color: white;
+  color: #033665;
+  text-decoration: none;
+  display: inline-block;
+  height: 35px;
+  border: none;
+  cursor: pointer;
+  margin-top: -2%;
 }
 
 button:hover {
-    cursor: pointer;
-    background-color: #033665;
-    color: white;
+  cursor: pointer;
+  background-color: #033665;
+  color: white;
 }
 
 .flex_container_global {
-    display: flex;
+  display: flex;
 }
 
 .flex_container_esquerda {
-    display: flex;
-    flex-direction: column;
-    margin-left: 25%;
-    width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 25%;
+  width: 30%;
 }

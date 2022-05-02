@@ -67,8 +67,6 @@ button:hover {
   cursor: pointer;
   background-color: #ffff;
   color: #010b16;
-  border: solid;
-  border-color: #010b16;
 }
 
 /*Detalhes da caixa de login*/
@@ -83,15 +81,7 @@ button:hover {
 
 /*Posicionamento*/
 .blocos {
-<<<<<<< HEAD
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 4fr 1fr;
-  gap: 30px;
-}
-=======
   display: flex;
   justify-content: center;
   gap: 30px;
 }
->>>>>>> 9822cbb823b90aabe76678f1608d4ce24e945952

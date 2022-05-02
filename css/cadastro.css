@@ -53,8 +53,6 @@ button:hover {
   cursor: pointer;
   background-color: #ffff;
   color: #010b16;
-  border: solid;
-  border-color: #010b16;
 }
 
 /*Caixas de texto*/
@@ -67,11 +65,19 @@ button:hover {
   margin-bottom: 7px;
 }
 
+/*Envio de arquivos*/
 .fotodeperfil {
-  margin-top: 8px;
-  color: #ffff;
   background-color: #010b16;
-  width: auto;
-  height: auto;
-  border: none;
+  color: #ffff;
+  padding: 3%;
+  cursor: pointer;
+}
+
+.fotodeperfil:hover {
+  background-color: #ffff;
+  color: #010b16;
+}
+
+input[type="file"] {
+  display: none;
 }

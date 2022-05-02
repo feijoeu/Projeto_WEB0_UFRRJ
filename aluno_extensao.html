@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./css/header.css">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="./css/aluno_extensao.css">
     <title>CPE - Aluno - Extensões</title>
 </head>
+
 <body>
     <div class="header">
         <h1>COORDENADORIA DE PESQUISA E EXTENSÃO</h1>
@@ -29,19 +31,20 @@
                 <h3>Relatórios</h3>
                 <ul>
                     <li>
-                        <p>Relatório: Janeiro <button type="button">Enviar</button></p>
-                        <p class="observacao">Status: Enviado</p>
+                        <p><span>Relatório:</span> Janeiro <button type="button">Enviar</button></p>
+                        <p class="observacao"><span>Status:</span> Enviado</p>
                     </li>
                     <li>
-                        <p>Relatório: Fevereiro <button type="button">Enviar</button></p>
-                        <p class="observacao">Status: Pendente</p>
+                        <p><span>Relatório:</span> Fevereiro <button type="button">Enviar</button></p>
+                        <p class="observacao"><span>Status:</span> Pendente</p>
                     </li>
                 </ul>
             </div>
 
             <div class="itens_sem_box">
                 <h3>Envio de Certificado de Conclusão</h3>
-                <button type="button">Enviar arquivo</button>
+                <label for='selecao-arquivo'>Selecione um arquivo</label>
+                <input id='selecao-arquivo' type='file'>
             </div>
         </div>
 
@@ -53,7 +56,7 @@
             </ul>
         </div>
     </div>
-    
+
     <footer>
         <div class="rodape">
             <p>Coordenadoria de Pesquisa e Extensão - Universidade Federal Rural do Rio de Janeiro</p>
@@ -61,4 +64,5 @@
         </div>
     </footer>
 </body>
+
 </html>

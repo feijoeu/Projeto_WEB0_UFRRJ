@@ -1,77 +1,88 @@
 body {
-    background-color: #010b16;
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+  background-color: #010b16;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .cabecalho {
-    background-color: #033665;
-    color: #ffff;
+  background-color: #033665;
+  color: #ffff;
 }
 
-button{
-    color: white;
-    background-color: #033665;
-    width: 120px;
-    height: 40px;
-    border: none;
+button {
+  color: white;
+  background-color: #033665;
+  width: 120px;
+  height: 40px;
+  border: none;
 }
 
 button:hover {
-    cursor: pointer;
-    background-color: white;
-    color: #010b16;
-    border: none;
+  cursor: pointer;
+  background-color: white;
+  color: #010b16;
+  border: none;
 }
 
-.extensoes{
-    background-color: white;
-    color: #010b16;
-    position: relative;
-    height: 300px;
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 5%;
-    margin-bottom: 3.3%;
+.extensoes {
+  background-color: white;
+  color: #010b16;
+  position: relative;
+  height: 300px;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
+  margin-bottom: 3.3%;
 }
 
-.letrag{
-    font-size: medium;
-}
-.letrap{
-    font-size: small;
+.letrag {
+  font-size: medium;
 }
 
-h3{
-    color: white;
-    background-color: #033665;
-    text-align: center;
+.letrag button {
+  float: right;
+  margin: auto;
+  margin-right: 5%;
 }
 
-.botoes{
-    margin-top: 2%;
-    margin-left: 25%;
-    display: flex;
-    gap: 443px;   
-    margin-bottom: 5%;
+.letrap {
+  font-size: small;
 }
 
-b button {
-    background-color: #033665;
-    color: white;
-    text-decoration: none;
-    height: 35px;
-    border: none;
-    cursor: pointer;
-    float: right;
-    margin: auto; 
-    margin-right: 5%;
+h3 {
+  color: white;
+  background-color: #033665;
+  text-align: center;
 }
 
-b button:hover {
-    cursor: pointer;
-    background-color: #010b16;
-    color: white;
-    border: none;
+span {
+  font-weight: bold;
+}
+
+.botoes {
+  margin-top: 2%;
+  margin-left: 25%;
+  display: flex;
+  gap: 443px;
+  margin-bottom: 5%;
+}
+
+p button {
+  background-color: #033665;
+  color: white;
+  text-decoration: none;
+  height: 35px;
+  border: none;
+  cursor: pointer;
+  float: right;
+  margin: auto;
+  margin-right: 5%;
+}
+
+p button:hover {
+  cursor: pointer;
+  background-color: #010b16;
+  color: white;
+  border: none;
 }
