@@ -17,6 +17,13 @@ button{
     border: none;
 }
 
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #010b16;
+    border: none;
+}
+
 .extensoes{
     background-color: white;
     color: #010b16;
@@ -25,6 +32,8 @@ button{
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
+    margin-top: 5%;
+    margin-bottom: 3.3%;
 }
 
 .letrag{
@@ -45,4 +54,24 @@ h3{
     margin-left: 25%;
     display: flex;
     gap: 443px;   
+    margin-bottom: 5%;
+}
+
+b button {
+    background-color: #033665;
+    color: white;
+    text-decoration: none;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin: auto; 
+    margin-right: 5%;
+}
+
+b button:hover {
+    cursor: pointer;
+    background-color: #010b16;
+    color: white;
+    border: none;
 }

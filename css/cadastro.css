@@ -30,7 +30,7 @@ h3::before {
   padding: 30px 50px 50px;
 
   flex: 1;
-  margin: 5% 25%;
+  margin: 2.2% 25%;
 }
 
 .blocos {
@@ -64,4 +64,13 @@ button:hover {
   outline: none;
   margin-top: 7px;
   margin-bottom: 7px;
+}
+
+.fotodeperfil {
+  margin-top: 8px;
+  color: #ffff;
+  background-color: #010b16;
+  width: auto;
+  height: auto;
+  border: none;
 }

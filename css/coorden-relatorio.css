@@ -9,10 +9,9 @@ body {
   color: #010b16;
   background-color: white;
   margin-left: 25%;
-  width: 27%;
+  width: 50%;
   height: 50%;
   padding-bottom: 0.1%;
-  align-items: left;
 }
 
 .informacoes h3 {
@@ -29,7 +28,6 @@ body {
   background-color: #033665;
   color: white;
   text-decoration: none;
-  display: inline-block;
   height: 35px;
   border: none;
   border: solid;
@@ -56,9 +54,11 @@ span {
   background-color: #033665;
   color: #ffff;
   margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 2%;
   padding: 34px;
   padding-top: 3px;
-  width: 15%;
+  width: 45%;
   height: 220px;
 }
 
@@ -99,11 +99,4 @@ span {
   color: #010b16;
   border: solid;
   border-color: #010b16;
-}
-
-/*Posicionamento*/
-.relatorio {
-  position: relative;
-  left: 30%;
-  bottom: 192px;
 }

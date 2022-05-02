@@ -46,6 +46,7 @@ h2 button {
   float: right;
   margin: auto; 
   height: 27px;
+  width: 100px;
   background-color: white;
   color: #033665;
   text-decoration: none;
