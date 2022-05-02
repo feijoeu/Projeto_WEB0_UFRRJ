@@ -23,6 +23,7 @@ h3 {
   display: grid;
   margin-left: 25%;
   margin-right: 25%;
+  height: 465px;
 }
 
 .cadastro,
@@ -33,6 +34,7 @@ h3 {
   padding-top: 5px;
   width: 75%;
   height: 250px;
+  margin-top: 5%;
 }
 
 /*Caixas de texto*/

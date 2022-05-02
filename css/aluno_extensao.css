@@ -8,6 +8,8 @@ body {
 
 .itens_sem_box {
     color: white;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .itens_sem_box h3::before {
@@ -33,18 +35,19 @@ body {
     background-color: #033665;
     color: white;
     text-decoration: none;
-    display: inline-block;
     height: 35px;
     border: none;
     cursor: pointer;
+    float: right;
+    margin: auto; 
+    margin-right: 5%;
 }
 
 .relatorios button:hover {
     cursor: pointer;
-    background-color: #ffff;
-    color: #010b16;
-    border: solid;
-    border-color: #033665;
+    background-color: #010b16;
+    color: white;
+    border: none;
 }
 
 /* Estilização do bloco de avisos. */
@@ -52,10 +55,9 @@ body {
 .avisos {
     color: #010b16;
     background-color: white;
-    width: 15%;
-    margin-left: 5%;
+    width: 18%;
+    margin-left: 2%;
     padding-bottom: 0.1%;
-    align-items: left;
 }
 
 .avisos h3, .relatorios h3{

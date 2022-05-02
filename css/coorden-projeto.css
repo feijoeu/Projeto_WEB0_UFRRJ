@@ -26,21 +26,18 @@ body {
 
 button {
   background-color: #033665;
-  color: #ffff;
-  text-decoration: none;
-  display: inline-block;
-  height: 32px;
-  width: 75px;
+  color: #ffffff;
+  width: 80px;
+  height: 30px;
   border: none;
-  cursor: pointer;
+  float: right;
+  margin-right: 10%;
 }
 
 button:hover {
   cursor: pointer;
-  background-color: #ffff;
-  color: #010b16;
-  border: solid;
-  border-color: #033665;
+  color: #ffff;
+  background-color: #010b16;
 }
 
 /*Estilizações do bloco dos alunos*/
@@ -64,6 +61,7 @@ button:hover {
   color: #010b16;
   margin-left: 25%;
   margin-right: 25%;
+  margin-bottom: 2.3%;
   padding-bottom: 10px;
   padding-top: 0px;
 }

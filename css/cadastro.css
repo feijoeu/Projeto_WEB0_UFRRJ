@@ -3,6 +3,8 @@ body {
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /*Título Cadastro*/
@@ -24,12 +26,11 @@ h3::before {
 .cadastro {
   background-color: #033665;
   color: #ffff;
-  position: relative;
-  padding: 50px;
   width: auto;
-  margin-left: 25%;
-  margin-right: 25%;
-  padding-top: 30px;
+  padding: 30px 50px 50px;
+
+  flex: 1;
+  margin: 2.2% 25%;
 }
 
 .blocos {
@@ -63,4 +64,13 @@ button:hover {
   outline: none;
   margin-top: 7px;
   margin-bottom: 7px;
+}
+
+.fotodeperfil {
+  margin-top: 8px;
+  color: #ffff;
+  background-color: #010b16;
+  width: auto;
+  height: auto;
+  border: none;
 }

@@ -1,0 +1,74 @@
+body {
+    background-color: #010b16;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dados{
+    margin-top: 3%;
+    margin-bottom: 3.3%;
+    background-color: #033665;
+    color: white;
+    padding: 30px;
+    position: relative;
+    width: 45.75%;
+    margin-left: 25%;
+}
+
+.extensoes{
+    background-color: white;
+    color: white;
+    padding: 54px;
+    position: relative;
+    width: 42%;
+    margin-left: 25%;
+}
+
+button{
+    color: white;
+    background-color: #010b16;
+    width: 100px;
+    height: 30px;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #ffff;
+    color: #010b16;
+}
+
+h3::before {
+    margin-bottom: 5px;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #ffff;
+}
+
+h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.box {
+    padding: 8px;
+    border: none;
+    outline: none;
+}
+
+.blocos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.cabecalho {
+    background-color: #033665;
+    color: #ffff;
+}
+
+.bloco2{
+    position: relative;
+    bottom: 88px;
+}
