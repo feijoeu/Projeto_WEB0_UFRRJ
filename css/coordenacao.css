@@ -36,14 +36,14 @@ h3 {
   text-align: center;
   color: white;
   background-color: #033665;
+  margin-top: 0%;
 }
 
 .ativas,
 .concluidas {
   color: #010b16;
   background-color: white;
-  margin-left: 25%;
-  width: 23%;
+  width: 45%;
   height: 400px;
   padding-bottom: 0.1%;
   align-items: left;
@@ -82,13 +82,10 @@ span {
 }
 
 /*Posicionamento*/
-<<<<<<< HEAD
-.concluidas {
-  position: relative;
-  left: 27%;
-  bottom: 420px;
-  margin-right: 25%;
-=======
 .extensoes {
->>>>>>> 9822cbb823b90aabe76678f1608d4ce24e945952
+  display: flex;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 2.5%;
+  justify-content: space-between;
 }

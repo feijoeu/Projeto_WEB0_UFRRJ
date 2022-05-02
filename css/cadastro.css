@@ -2,10 +2,9 @@ body {
   background-color: #010b16;
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
-<<<<<<< HEAD
-=======
   height: 100vh;
->>>>>>> 9822cbb823b90aabe76678f1608d4ce24e945952
+  display: flex;
+  flex-direction: column;
 }
 
 /*Título Cadastro*/
@@ -27,17 +26,12 @@ h3::before {
 .cadastro {
   background-color: #033665;
   color: #ffff;
-  position: relative;
-  padding: 50px;
-<<<<<<< HEAD
-  width: 42%;
-  margin-left: 25%;
-=======
   width: auto;
-  margin-left: 25%;
-  margin-right: 25%;
->>>>>>> 9822cbb823b90aabe76678f1608d4ce24e945952
-  padding-top: 30px;
+  width: auto;
+  padding: 30px 50px 50px;
+
+  flex: 1;
+  margin: 2.2% 25%;
 }
 
 .blocos {
@@ -71,4 +65,13 @@ button:hover {
   outline: none;
   margin-top: 7px;
   margin-bottom: 7px;
+}
+
+.fotodeperfil {
+  margin-top: 8px;
+  color: #ffff;
+  background-color: #010b16;
+  width: auto;
+  height: auto;
+  border: none;
 }
