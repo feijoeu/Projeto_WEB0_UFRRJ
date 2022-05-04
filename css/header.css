@@ -62,7 +62,7 @@ h2 button:hover {
   border: none;
 }
 
-select {
+h2 select {
   float: right;
   margin: auto; 
   height: 27px;
