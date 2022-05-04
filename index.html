@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Login</title>
+  <title>Coordenadoria de Pesquisa e Extensão</title>
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/footer.css">
@@ -16,16 +16,34 @@
   </div>
 
   <div class="cabecalho">
-    <h2>Entrar</h2>
+    <h2>
+      Seja bem-vindo!
+      <select name="formal" onchange="javascript:handleSelect(this)">
+        <option value="0" selected disabled>Faça Login</option>
+        <option value="login1">Sou Aluno</option>
+        <option value="login2">Sou Responsável</option>
+        <option value="login3">Sou Coordenador</option>
+      </select>
+      
+      <script type="text/javascript">
+        function handleSelect(elm)
+        {
+            window.location = elm.value+".html";
+        }
+      </script>
+    </h2>
   </div>
 
-  <div class="login">
-    <h3>Deseja fazer login como:</h3>
-    <div class="botoes">
-      <a href="./login1.html"><button>Aluno</button></a>
-      <a href="./login2.html"><button>Responsável por Projeto</button></a>
-      <a href="./login3.html"><button>Coordenação</button></a>
-    </div>
+  <figure>
+    <img src="./imagens/ufrrj.jpg">
+  </figure>
+
+  <div class="sobre">
+    <h3>Sobre a CPE:</h3>
+    <p> 
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque placeat sapiente et quam dolorum quia libero, nihil numquam distinctio fugiat! Iusto nihil, eligendi debitis quod nostrum amet quas non assumenda! 
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint laudantium perferendis, impedit labore porro at numquam illo voluptas cum rem autem dolorum! Vitae reiciendis eveniet corporis, dolor eaque suscipit dolore.
+    </p>
   </div>
 
   <footer>
@@ -34,9 +52,6 @@
       <p>UFRRJ © Todos os direiros reservados.</p>
     </div>
   </footer>
-  <<<<<<< HEAD </body>
-    =======
 </body>
 
 </html>
->>>>>>> 9fb2035149d733829e50b043757154f4f3df692a

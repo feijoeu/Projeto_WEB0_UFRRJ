@@ -52,6 +52,7 @@ h2 button {
   text-decoration: none;
   border: none;
   cursor: pointer;
+  outline: none;
 }
 
 h2 button:hover {
@@ -59,4 +60,17 @@ h2 button:hover {
   background-color: #010b16;
   color: white;
   border: none;
+}
+
+select {
+  float: right;
+  margin: auto; 
+  height: 27px;
+  width: 130px;
+  background-color: white;
+  color: #033665;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
 }

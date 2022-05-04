@@ -40,8 +40,8 @@ button:hover {
   background-color: #010b16;
 }
 
-/*Estilizações do bloco dos alunos*/
-.alunos {
+/*Estilizações do bloco dos participantes*/
+.participantes {
   background-color: #ffff;
   color: #010b16;
   margin-left: 25%;
@@ -49,7 +49,7 @@ button:hover {
   padding-bottom: 10px;
 }
 
-.alunos h3 {
+.participantes h3 {
   text-align: center;
   color: white;
   background-color: #033665;
